@@ -95,7 +95,7 @@ snippet docxt
 snippet docx
 	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
 	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-snippet html
+snippet html original #1
 	<html>
 	${1}
 	</html>
@@ -188,41 +188,93 @@ snippet table
 	</table>${4}
 snippet textarea
 	<textarea name="${1:Name}" rows="${2:8}" cols="${3:40}">${4}</textarea>${5}
-
-
-
-
+#Below are mine settings:Alan
+#
 snippet p
 	<p>
 	${1}
-	</p>
-
+	</p> 
 snippet ul
 	<ul>
 		${1}
-	</ul>
-	
+	</ul> 
 snippet ol
 	<ol>
 		${1}
-	</ol>
-
+	</ol> 
 snippet li
-	<li>${1}</li>
-
+	<li>${1}</li> 
 snippet h1 mine #1
-	<h1>${1}</h1>
-
+	<h1>${1}</h1> 
 snippet h2
-	<h2>${1}</h2>
-	
+	<h2>${1}</h2> 
 snippet h3
 	<h3>${1}</h3>
 snippet h4
-	<h4>${1}</h4>
-	
-	
-	
-	
-	
-	
+	<h4>${1}</h4> 
+snippet u
+	<u>${1}</u>${2}
+snippet st
+	<strong>${1}</strong>${2}
+snippet em
+	<em>${1}</em>${2}
+snippet span
+	<span class="${1}">${2}</span>${3} 
+snippet bq
+	<blockquote>
+		${1}
+	</blockquote> 
+snippet code
+	<code>${1}</code>
+snippet a
+	<a href="${1}">${2}</a>${3}
+snippet divw
+	<div class="${1:warning}">
+		${2}
+	</div> 
+snippet divi
+	<div class="${1:info}">
+		${2}
+	</div> 
+snippet chkn
+	<input type="checkbox" name="NextAction" />${1}
+snippet dl
+	<dl>
+		${1}
+	</dl>
+snippet dt
+	<dt>
+		${1}
+	</dt>
+snippet dd
+	<dd>
+		${1}
+	<dd>
+
+snippet <
+	&lt;
+snippet >
+	&gt;
+
+
+#SysntaxHighlighter
+snippet csharp
+	<pre class="brush: csharp;">
+	${1}
+	</pre>
+snippet html syntaxHighlighter #2
+	<pre class="brush: html;">
+	${1}
+	</pre>
+snippet css
+	<pre class="brush: css;">
+	${1}
+	</pre>
+snippet web
+	<pre class="brush: csharp; html-script: true">
+	${1}
+	</pre>
+snippet js 
+	<pre class="brush: javascript;">
+	${1}
+	</pre>
